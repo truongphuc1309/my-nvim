@@ -8,11 +8,14 @@ require("bufferline").setup({
 
         offsets = {
             {
-                filetype = "neo-tree",
+                filetype = "NvimTree",
                 text = "File Explorer",
                 highlight = "Directory",
                 text_align = "left",
+                separator = true,
             },
         },
+        diagnostics = "nvim_lsp",
+        separator_style = "thin"
     }
 })

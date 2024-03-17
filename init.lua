@@ -3,7 +3,7 @@ require ("core.base")
 require ("core.colorscheme")
 require ("core.keymaps")
 
-require ("plugins-setup.neo-tree")
+require ("plugins-setup.nvim-tree")
 require ("plugins-setup.lualine")
 require ("plugins-setup.bufferline")
 require ("plugins-setup.nvim-cmp")

@@ -155,16 +155,6 @@ _G.packer_plugins = {
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/mini.bufremove",
     url = "https://github.com/echasnovski/mini.bufremove"
   },
-  ["neo-tree.nvim"] = {
-    loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
-    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
-  },
-  ["nui.nvim"] = {
-    loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/nui.nvim",
-    url = "https://github.com/MunifTanjim/nui.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -184,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -206,11 +201,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,

@@ -44,7 +44,7 @@ keymap.set("n", "<S-h>", ":bprevious<CR>", options) --  go to previous tab
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 -- nvim-tree
-keymap.set("n", "<leader>e", ":Neotree toggle<CR>", options) -- toggle file explorer
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", options) -- toggle file explorer
 
 -- Floaterm
 vim.cmd([[
