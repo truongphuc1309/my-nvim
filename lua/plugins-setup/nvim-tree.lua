@@ -3,10 +3,11 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- optionally enable 24-bit colour
--- vim.opt.termguicolors = true
+vim.opt.termguicolors = true
 
-vim.cmd([[ highlight NvimTreeFolderArrowOpen guifg=#3FC5FF]])
-vim.cmd([[ highlight NvimTreeFolderArrowOpen guifg=#3FC5FF]])
+vim.cmd([[ highlight NvimTreeFolderArrowClosed guifg=#9bb0f8]])
+vim.cmd([[ highlight NvimTreeFolderArrowOpen guifg=#9bb0f8]])
+
 
 -- OR setup with some options
 require("nvim-tree").setup({
