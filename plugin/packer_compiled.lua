@@ -145,11 +145,6 @@ _G.packer_plugins = {
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
-  ["mason-null-ls.nvim"] = {
-    loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
-    url = "https://github.com/jayp0521/mason-null-ls.nvim"
-  },
   ["mason.nvim"] = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/mason.nvim",
@@ -159,11 +154,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/mini.bufremove",
     url = "https://github.com/echasnovski/mini.bufremove"
-  },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

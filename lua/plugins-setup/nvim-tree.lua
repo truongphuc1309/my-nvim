@@ -19,9 +19,21 @@ require("nvim-tree").setup({
     },
     renderer = {
         group_empty = false,
+        indent_width = 2,
         indent_markers = {
-            enable = false,
+            enable = false;
         },
+        icons = {
+            glyphs = {
+                folder = {
+                    default = "",
+                    open = "",
+                    empty = "",
+                    empty_open = "",
+                }
+            }
+
+        }
     },
     filters = {
         dotfiles = false,
@@ -33,4 +45,5 @@ require("nvim-tree").setup({
             },
         },
     },
+
 })
