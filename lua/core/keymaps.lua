@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
-local options = {silent = true}
+local options = { silent = true }
 
 -- Save file
 keymap.set("n", "<leader>ss", ":w<CR>")
@@ -20,7 +20,8 @@ keymap.set("i", "jk", "<ESC>", options)
 keymap.set("n", "<leader>nh", ":nohl<CR>", options)
 
 -- delete single character without copying into register
-keymap.set("n", "x", '"_x')
+keymap.set({ "n", "v" }, "x", '"_x')
+keymap.set("n", "X", 'V"_x')
 
 -- increment/decrement numbers
 keymap.set("n", "<leader>+", "<C-a>") -- increment
@@ -33,9 +34,9 @@ keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & heig
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
 keymap.set("n", "<leader>to", ":tabnew<CR>", options) -- open new tab
-keymap.set("n", "<leader>tx", function (n)
-    require("mini.bufremove").delete(n, false)
-    require("bufferline.ui").refresh()
+keymap.set("n", "<leader>tx", function(n)
+	require("mini.bufremove").delete(n, false)
+	require("bufferline.ui").refresh()
 end) -- close current tab
 keymap.set("n", "<S-l>", ":bnext<CR>", options) --  go to next tab
 keymap.set("n", "<S-h>", ":bprevious<CR>", options) --  go to previous tab
@@ -51,5 +52,3 @@ vim.cmd([[
 nnoremap <silent> <leader>ft :FloatermToggle<CR>
 tnoremap <silent> <leader>ft <C-\><C-n>:FloatermToggle<CR>
 ]])
-
-
