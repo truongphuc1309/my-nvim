@@ -4,6 +4,10 @@ vim.g.mapleader = " "
 local keymap = vim.keymap -- for conciseness
 local options = { silent = true }
 
+-- Telescope
+keymap.set("n", "<leader>ff", ":Telescope find_files<CR>")
+keymap.set("n", "<leader>fs", ":Telescope live_grep<CR>")
+
 -- Save file
 keymap.set("n", "<leader>ss", ":w<CR>")
 

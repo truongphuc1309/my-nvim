@@ -1,5 +1,5 @@
 require("plugins")
-require("core.base")
+require("core.options")
 require("core.colorscheme")
 require("core.keymaps")
 
@@ -17,3 +17,4 @@ require("plugins-setup.floaterm")
 require("plugins-setup.bufremove")
 require("plugins-setup.conform")
 require("plugins-setup.alpha")
+require("plugins-setup.telescope")

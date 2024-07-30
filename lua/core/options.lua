@@ -1,6 +1,8 @@
 -- line numbers
 vim.opt.relativenumber = true
 vim.opt.number = true
+vim.opt.scrolloff = 10
+vim.opt.sidescrolloff = 8
 
 -- tab & identation
 vim.opt.tabstop = 4
@@ -31,7 +33,7 @@ vim.opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line
 vim.opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
 -- split windows
-vim.opt.splitright = true -- split vertical window to the right
-vim.opt.splitbelow = true -- split horizontal window to the bottom
+vim.opt.splitright = true     -- split vertical window to the right
+vim.opt.splitbelow = true     -- split horizontal window to the bottom
 
 vim.opt.iskeyword:append("-") -- consider string-string as whole word

@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -202,10 +207,15 @@ _G.packer_plugins = {
     path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["tokyonight.nvim"] = {
+  ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
+    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/TruongPhuc/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,
